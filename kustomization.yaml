@@ -1,5 +1,4 @@
 namespace: reverse-words-njiratti-stage
-namePrefix: dev-
 commonLabels:
   app: reversewords-dev-app
 bases:
