@@ -13,4 +13,3 @@ spec:
         env:
         - name: RELEASE
           value: "Stage Release v0.0.3"
-        - $patch: replace
