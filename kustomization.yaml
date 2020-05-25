@@ -1,7 +1,10 @@
 namespace: reverse-words-njiratti-stage
 commonLabels:
   app: reversewords-dev-app
-bases:
-- ./base
+resources:
+- base/namespace.yaml
+- base/deployment.yaml
+- base/serivce.yaml
+- base/route.yaml
 patchesStrategicMerge:
 - overlays/deployment.yaml
