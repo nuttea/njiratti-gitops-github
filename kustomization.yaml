@@ -1,7 +1,0 @@
-namespace: gitops-apps
-commonLabels:
-  app: reversewords-dev-app
-resources:
-- base/deployment.yaml
-- base/serivce.yaml
-- base/route.yaml
