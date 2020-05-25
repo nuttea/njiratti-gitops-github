@@ -2,8 +2,6 @@ namespace: reverse-words-njiratti-stage
 commonLabels:
   app: reversewords-dev-app
 bases:
-- github.com/nuttea/njiratti-gitops-github?ref=config
-resources:
-- base/namespace.yaml
+- ./base
 patchesStrategicMerge:
 - overlays/deployment.yaml

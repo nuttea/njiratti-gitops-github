@@ -1,0 +1,6 @@
+namespace: reverse-words
+resources:
+- namespace.yaml
+- deployment.yaml
+- service.yaml
+- route.yaml
