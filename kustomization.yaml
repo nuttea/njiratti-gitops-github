@@ -1,8 +1,7 @@
-namespace: reverse-words-njiratti-stage
+namespace: gitops-apps
 commonLabels:
   app: reversewords-dev-app
 resources:
-- base/namespace.yaml
 - base/deployment.yaml
 - base/serivce.yaml
 - base/route.yaml
